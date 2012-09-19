@@ -19,4 +19,14 @@ body {
 .photo img {
     min-width: 160px;
     max-width: 240px;
+    position: relative;
+}
+
+.photo img.starIcon {
+    width: 29px;
+    max-width: 29px;
+    min-width: 29px;
+    height: 29px;
+    position: absolute;
+    left: -2px;
 }
